@@ -10,9 +10,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-electron": "ng build --base-href ./ && electron .",
-    "electron": "electron .",
+    "package-electron": "ng build --base-href ./ && electron-builder build --windows --config electron/builder.yaml",
     "build-electron-aot": "ng build --base-href ./ --prod && electron .",
-    "package-electron-aot": "ng build --base-href ./ --prod && electron-builder build --windows --config electron/builder.yaml"
+    "package-electron-aot": "ng build --base-href ./ --prod && electron-builder build --windows --config electron/builder.yaml",
+    "electron": "electron ."
   },
   "private": true,
   "dependencies": {
