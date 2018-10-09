@@ -6,6 +6,10 @@ ng serve --open
 
 npm install --save-dev electron
 
+npm run electron
+npm run build-electron
+npm run build-electron-aot
+
 1. Init Repo (VSCode)
 
 2. Commit Repo (VSCode)
