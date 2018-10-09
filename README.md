@@ -8,12 +8,13 @@ ng serve --open
 npm install --save-dev --save-exact electron@latest
 npm install --save-dev --save-exact electron-builder@latest
 
-npm run electron
 npm run build-electron
+npm run electron
 npm run build-electron-aot
+npm run package-electron-aot
 
-npx electron .
-npx electron-builder build --windows --config electron/builder.yaml
+#npx electron .
+#npx electron-builder build --windows --config electron/builder.yaml
 
 1. Init Repo (VSCode)
 
