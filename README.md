@@ -11,6 +11,7 @@ npm install --save-dev --save-exact electron-builder@latest
 npm run electron
 npm run build-electron
 npm run build-electron-aot
+npx electron-builder build --windows
 
 1. Init Repo (VSCode)
 
