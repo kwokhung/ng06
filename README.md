@@ -4,14 +4,16 @@ ng new ng06
 
 ng serve --open
 
-#npm install --save-dev electron
-npm install --save-dev --save-exact electron@latest
-npm install --save-dev --save-exact electron-builder@latest
+npm install --save-dev electron
+npm install --save-dev electron-builder
+#npm install --save-dev --save-exact electron@latest
+#npm install --save-dev --save-exact electron-builder@latest
 
 npm run build-electron
-npm run electron
+npm run package-electron
 npm run build-electron-aot
 npm run package-electron-aot
+npm run electron
 
 #npx electron .
 #npx electron-builder build --windows --config electron/builder.yaml
