@@ -4,7 +4,9 @@ ng new ng06
 
 ng serve --open
 
-npm install --save-dev electron
+#npm install --save-dev electron
+npm install --save-dev --save-exact electron@latest
+npm install --save-dev --save-exact electron-builder@latest
 
 npm run electron
 npm run build-electron
